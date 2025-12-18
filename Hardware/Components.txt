@@ -1,0 +1,6 @@
+- ESP32 / Raspberry Pi / Arduino
+- Microphone Module
+- Speaker or Audio Output Module
+- Jumper Wires
+- Breadboard
+- Power Supply

@@ -1,0 +1,14 @@
+Controller: ESP32 / Raspberry Pi / Arduino (specify one)
+
+Microphone Module:
+- VCC → 3.3V / 5V
+- GND → GND
+- OUT → GPIO / Analog Pin
+
+Speaker / Audio Module:
+- VCC → 5V
+- GND → GND
+- IN → GPIO / Audio Output Pin
+
+Power Supply:
+- External USB / Adapter

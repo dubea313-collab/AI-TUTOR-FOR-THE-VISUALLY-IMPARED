@@ -1,0 +1,7 @@
+1. Initialize microphone and audio input
+2. Wait for user voice command
+3. Capture and process audio input
+4. Match input with predefined commands or responses
+5. Generate audio response
+6. Play response through speaker
+7. Return to listening state
