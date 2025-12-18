@@ -1,96 +1,57 @@
-[14:15, 16/12/2025] Dubz: # Non-Contact Temperature-Based Sanitization System
+# AI Tutor for the Visually Impaired
 
 ## Project Status
-Working hardware prototype (proof-of-concept)
+Working prototype (assistive system proof-of-concept)
 
-## Description
-This project is a non-contact automatic sanitization system that measures
-body temperature using an infrared temperature sensor and dispenses sanitizer
-when a valid temperature is detected. The system was built and tested on a
-breadboard to validate functionality.
+## Overview
+The AI Tutor for the Visually Impaired is an assistive learning system designed
+to help visually impaired users access educational content through voice-based
+interaction and audio feedback. The system allows users to interact without the
+need for a screen, keyboard, or mouse.
 
-## Features
-- Non-contact temperature sensing
-- Automatic sanitizer dispensing
-- Relay-controlled pump
-- External power isolation for motor safety
+The project focuses on accessibility, simplicity, and hands-free operation using
+embedded hardware and basic AI or logic-based processing.
 
-## Hardware Used
-- Arduino Uno
-- MLX90614 IR Temperature Sensor
-- Relay Module
-- DC Pump
-
-## System Operation
-1. IR sensor reads object temperature
-2. Microcontroller evaluates temperature threshold
-3. Relay activates pump if conditions are met
-4. Sanitizer is dispensed automatically
-
-## Limitations
-- Breadboard-based prototype
-- No enclosure
-- Basic firmware logic
-
-## Future Improvements
-- PCB design
-- LCD/OLED display
-- IoT monitoring
-- Enclosure and safety improvements
-
-## Demo
-See working prototype video in /media/demo_video_link.txt
-[14:40, 16/12/2025] Dubz: # AI Tutor for the Visually Impaired
-
-## Project Status
-Working hardware and software prototype (proof-of-concept)
-
-## Description
-This project is an AI-based assistive learning system designed to help visually
-impaired users interact with educational content using voice-based input and
-audio feedback. The system processes spoken commands and responds with
-audio output, enabling hands-free and screen-free learning.
-
-The project focuses on accessibility, simplicity, and real-time interaction
-using embedded hardware and basic AI concepts.
-
-## Features
+## Key Features
 - Voice-based user interaction
-- Audio feedback for responses
-- Assistive learning support
+- Audio feedback responses
 - Hands-free operation
 - Designed for visually impaired users
+- Prototype-level assistive learning system
 
 ## Hardware Used
-- Microcontroller / Single Board Computer (specify if Arduino, ESP32, Raspberry Pi)
+- Microcontroller / Single Board Computer (ESP32 / Arduino / Raspberry Pi)
 - Microphone module
 - Speaker or audio output module
-- Power supply
 - Breadboard and jumper wires
+- Power supply
 
 ## Software / Technologies
 - Embedded C / Python (depending on implementation)
-- Basic AI / logic-based response system
-- Audio input and output handling
+- Audio input capture
+- Logic-based or basic AI response system
 
 ## System Operation
 1. The user speaks a command or question.
 2. The microphone captures the audio input.
-3. The system processes the input using predefined logic or AI-based processing.
-4. An appropriate response is generated.
-5. The response is played back as audio through a speaker.
+3. The system processes the input using predefined logic or AI techniques.
+4. A suitable response is generated.
+5. The response is delivered as audio output through a speaker.
+6. The system returns to listening mode.
 
 ## Limitations
 - Prototype-level implementation
 - Limited vocabulary or predefined responses
-- No enclosure or optimized hardware design
+- No advanced natural language processing
+- No optimized enclosure or PCB
 
 ## Future Improvements
-- Integration of advanced AI/NLP models
+- Integration of advanced speech recognition and NLP
 - Cloud-based knowledge access
-- Improved speech recognition accuracy
-- Portable enclosure design
 - Multi-language support
+- Portable enclosure design
+- Improved audio processing and accuracy
 
 ## Demo
-A working demonstration video is available in the media/demo_video_link.txt file.
+A demonstration video of the working prototype is available in the `media`
+folder or via the provided demo video link.
