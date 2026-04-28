@@ -1,7 +1,7 @@
 # AI Tutor for the Visually Impaired
 
 ## Project Status
-Working prototype (assistive system proof-of-concept)
+No prototype available (assistive system proof-of-concept)
 
 ## Overview
 The AI Tutor for the Visually Impaired is an assistive learning system designed
@@ -55,3 +55,5 @@ embedded hardware and basic AI or logic-based processing.
 ## Demo
 A demonstration video of the working prototype is available in the `media`
 folder or via the provided demo video link.
+
+By Andile Tafuma Dube
